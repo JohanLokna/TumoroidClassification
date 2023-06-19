@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "data_dir": {"type": "string"},
+        "model_dir": {"type": "string"},
+        "wb":{"type":"boolean"},
+        "pre_trained":{"type":"string"},
+        "model_name":{"type":"string"},
+        "random_seed":{"type":"integer"},
+        "batch_size":{"type":"integer"},
+        "learning_rate":{"type":"number"},
+        "class_weights":{"type":"array"},
+        "epochs":{"type":"integer"},
+        "test_size":{"type":"number"},
+        "padding_dim":{"type":"integer"},
+        "validate_every":{"type":"integer"},
+        "freeze":{"type":"boolean"}
+    },
+    "additionalProperties": false,
+    "minProperties": 8
+}

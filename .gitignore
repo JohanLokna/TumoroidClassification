@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+__pycache__/
+data/
+venv/
+.idea/
+.ideawandb/
+.env
+launch.json
+results/
+.ipynb_checkpoints
